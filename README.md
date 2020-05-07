@@ -13,7 +13,7 @@ Available services are:
 
 ## Development
 
-Initially we have been using Bash Script.
+Initially I have been using Bash Script.
 
 The actual tool/technolgy stack is:
 
@@ -36,6 +36,11 @@ How do you enter your references/information.
 
 How do you add or delete the services based in your need.
 
+### Troubleshooting
+
+Solutions for known problems.
+
+- IPv6 sending guidelines regarding PTR records not met (TBD)
 
 ## Roadmap
 
