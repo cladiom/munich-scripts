@@ -9,7 +9,7 @@ Available departments are:
 
 Available services are:
 
-- [Personalausweis/Reisepass status](www.muenchen.de/pass) - You will receive an e-mail informing when it is done.
+- [Personalausweis/Reisepass status](http://www.muenchen.de/pass) - You will receive an e-mail informing when it is done.
 
 ## Development
 
@@ -45,4 +45,4 @@ Next would be to host a website.
 
 ## Contributions
 
-For now I am accepting feature requests. You can create an ticket.
+For now I am accepting feature requests. You can create a ticket :)
