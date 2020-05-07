@@ -34,14 +34,12 @@ How do you enter your references/information.
 
 ### Managing Services
 
-How do you add or delete the services when they are not needed.
+How do you add or delete the services based in your need.
 
 
 ## Roadmap
 
 I intend to move to Python with Docker in order to have a better development/deployment infrastructure.
-
-Next would be to host a website.
 
 ## Contributions
 
