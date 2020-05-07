@@ -2,14 +2,14 @@
 
 Useful scripts to make life in Munich less painful
 
-Mainly the scripts here try to automate dumb services into Push Notifications.
+Mainly the scripts here try to automate legacy services into Push Notifications.
 
 Available departments are:
 - [Bürgerbüro](https://www.muenchen.de/rathaus/Stadtverwaltung/Kreisverwaltungsreferat/Buergerbuero.html) (civil affairs, residence registration etc.)
 
 Available services are:
 
-- [Personalausweis/Reisepass status] (www.muenchen.de/pass)
+- [Personalausweis/Reisepass status](www.muenchen.de/pass) - You will receive an e-mail informing when it is done.
 
 ## Development
 
