@@ -2,7 +2,7 @@
 
 Useful scripts to make life in Munich less painful
 
-Mainly the scripts here try to automate dumb services into Push
+Mainly the scripts here try to automate dumb services into Push Notifications.
 
 Available departments are:
 - [Bürgerbüro](https://www.muenchen.de/rathaus/Stadtverwaltung/Kreisverwaltungsreferat/Buergerbuero.html) (civil affairs, residence registration etc.)
@@ -40,6 +40,8 @@ How do you add or delete the services when they are not needed.
 ## Roadmap
 
 I intend to move to Python with Docker in order to have a better development/deployment infrastructure.
+
+Next would be to host a website.
 
 ## Contributions
 
