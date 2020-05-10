@@ -37,7 +37,7 @@ Open the \*.sh file and edit with your Reference Code and your e-mail.
 
 Copy and paste the relate \*.plist file into ~/Library/LaunchAgents/
 
-Open the \*.sh file and edit the Program path to your earlier created folder/\*.sh.
+Open the \*.plist file and edit the Program path to your earlier created folder/\*.sh.
 
 In the Terminal first enable your file to be accessed:
 e.g.: chmod u+x /Users/cladiomartins/Scripts/passport_status.sh
