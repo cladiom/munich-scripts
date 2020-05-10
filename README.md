@@ -39,17 +39,17 @@ Copy and paste the relate \*.plist file into ~/Library/LaunchAgents/
 
 Open the \*.plist file and edit the Program path to your earlier created folder/\*.sh.
 
-In the Terminal first enable your file to be accessed, e.g.:
+In the Terminal first enable your file to be accessed, e.g.:  
 <code> chmod u+x /Users/cladiomartins/Scripts/passport_status.sh </code>
 
-In order to load the service type in the Terminal:
+In order to load the service type in the Terminal:  
 <code> launchctl load -w ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist  </code> 
 
-In order to start the service type in the Terminal:
+In order to start the service type in the Terminal:  
 <code> launchctl start ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist </code> 
 
 
-To stop a service you can type in the Terminal:
+To stop a service you can type in the Terminal:  
 <code> launchctl unload ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist </code> 
 
 ### Configuring Services
