@@ -10,5 +10,9 @@
 		<true/>
 		<key>StartInterval</key>
 		<integer>28800</integer>
+		<key>AbandonProcessGroup</key>
+		<true/>
+		<key>Nice</key>
+  		<integer>1</integer>
 	</dict>
 </plist>

@@ -24,9 +24,33 @@ The actual tool/technolgy stack is:
 - [launchd] (https://www.launchd.info/)
 
 
-## Running/Deployment
+## Configuring/Running/Deploying
 
-The scripts run as services in your local computer. The script runs as default everyday on 8AM and 8PM Local Time.
+The scripts run as services in your local computer. The script runs as default every 8 Hours.
+
+Create a folder under your user location.
+e.g: /Users/cladiomartins/Scripts
+
+Copy and paste the \*.sh script you want under the created folder
+
+Open the \*.sh file and edit with your Reference Code and your e-mail.
+
+Copy and paste the relate \*.plist file into ~/Library/LaunchAgents/
+
+Open the \*.sh file and edit the Program path to your earlier created folder/\*.sh.
+
+In the Terminal first enable your file to be accessed:
+e.g.: chmod u+x /Users/cladiomartins/Scripts/passport_status.sh
+
+In order to load the service type in the Terminal:
+launchctl load -w ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist
+
+In order to start the service type in the Terminal:
+launchctl start ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist
+
+
+To stop a service you can type in the Terminal:
+launchctl unload ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist
 
 ### Configuring Services
 
