@@ -29,7 +29,7 @@ The actual tool/technolgy stack is:
 The scripts run as services in your local computer. The script runs as default every 8 Hours.
 
 Create a folder under your user location.
-e.g: /Users/cladiomartins/Scripts
+e.g: /Users/cladiomartins/**Scripts**
 
 Copy and paste the \*.sh script you want under the created folder
 
@@ -39,18 +39,18 @@ Copy and paste the relate \*.plist file into ~/Library/LaunchAgents/
 
 Open the \*.plist file and edit the Program path to your earlier created folder/\*.sh.
 
-In the Terminal first enable your file to be accessed:
-e.g.: chmod u+x /Users/cladiomartins/Scripts/passport_status.sh
+In the Terminal first enable your file to be accessed, e.g.:
+<code> chmod u+x /Users/cladiomartins/Scripts/passport_status.sh </code>
 
 In order to load the service type in the Terminal:
-launchctl load -w ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist
+<code> launchctl load -w ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist  </code> 
 
 In order to start the service type in the Terminal:
-launchctl start ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist
+<code> launchctl start ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist </code> 
 
 
 To stop a service you can type in the Terminal:
-launchctl unload ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist
+<code> launchctl unload ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist </code> 
 
 ### Configuring Services
 
