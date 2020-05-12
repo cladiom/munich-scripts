@@ -5,11 +5,17 @@ Useful scripts to make life in Munich less painful
 Mainly the scripts here try to automate legacy services into Push Notifications.
 
 Available departments are:
-- [Bürgerbüro](https://www.muenchen.de/rathaus/Stadtverwaltung/Kreisverwaltungsreferat/Buergerbuero.html) (civil affairs, residence registration etc.)
+- [Bürgerbüro](https://www.muenchen.de/rathaus/Stadtverwaltung/Kreisverwaltungsreferat/Buergerbuero.html) (civil affairs)
+- [Verkehr](https://www.muenchen.de/rathaus/Stadtverwaltung/Kreisverwaltungsreferat/Verkehr) (traffic affairs)
 
 Available services are:
 
-- [Personalausweis/Reisepass status](http://www.muenchen.de/pass) - You will receive an e-mail informing when it is done.
+- [Personalausweis/ID Card status](https://www17.muenchen.de/Passverfolgung/)
+- [Reisepass/Passport status](https://www17.muenchen.de/Passverfolgung/)
+- [Aufenthaltstitel/Residence Permit status](https://www17.muenchen.de/EATWebSearch/)
+- [Führerschein/Driver's License status](https://www17.muenchen.de/Fuehrerschein/)
+
+You will receive an e-mail informing when it is done.
 
 ## Development
 
