@@ -32,10 +32,17 @@ The actual tool/technolgy stack is:
 
 ## Configuring/Running/Deploying
 
+First of all you will need to create your own Telegram Bot. [See here](https://core.telegram.org/bots#6-botfather)
+
+Second, you will need to find out which is your Personal Telegram Chat ID. [See here](https://pupli.net/2019/02/get-chat-id-from-telegram-bot/)
+
+Third, to the scripts:
+
 The scripts run as services in your local computer. The script runs as default at 10 and 22 o'clock.
 
 Create a folder under your user location.
-e.g: /Users/cladiomartins/**Scripts**
+
+<code> e.g: /Users/cladiomartins/**Scripts** </code>
 
 Copy and paste the \*.sh script you want under the created folder
 
