@@ -64,14 +64,6 @@ In order to start the service type in the Terminal:
 To stop a service you can type in the Terminal:  
 <code> launchctl unload ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist </code> 
 
-### Configuring Services
-
-How do you enter your references/information.
-
-### Managing Services
-
-How do you add or delete the services based in your need.
-
 ## Roadmap
 
 I intend to move to Python with Docker in order to have a better development/deployment infrastructure.
