@@ -38,7 +38,7 @@ Second, you will need to find out which is your Personal Telegram Chat ID. [See 
 
 Third, to the scripts:
 
-The scripts run as services in your local computer. The script runs as default at 10 and 22 o'clock.
+The scripts run as services in your local computer. The script runs as default every 8 hours but you can change it.
 
 Create a folder under your user location.
 
