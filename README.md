@@ -15,7 +15,7 @@ Available services are:
 - [Aufenthaltstitel/Residence Permit status](https://www17.muenchen.de/EATWebSearch/)
 - [Führerschein/Driver's License status](https://www17.muenchen.de/Fuehrerschein/)
 
-You will receive an e-mail informing when it is done.
+You will receive an e-mail informing the status.
 
 ## Development
 
@@ -23,16 +23,16 @@ Initially I have been using Bash Script.
 
 The actual tool/technolgy stack is:
 
-- [GNU Bash] (https://www.gnu.org/software/bash/)
-- [curl] (https://curl.haxx.se/)
-- [xmllint] (http://xmlsoft.org/xmllint.html)
-- [Postfix] (http://www.postfix.org/)
-- [launchd] (https://www.launchd.info/)
-
+- [GNU Bash](https://www.gnu.org/software/bash/)
+- [curl](https://curl.haxx.se/)
+- [tidy](https://linux.die.net/man/1/tidy)
+- [xmllint](http://xmlsoft.org/xmllint.html)
+- [Postfix](http://www.postfix.org/)
+- [launchd](https://www.launchd.info/)
 
 ## Configuring/Running/Deploying
 
-The scripts run as services in your local computer. The script runs as default every 8 Hours.
+The scripts run as services in your local computer. The script runs as default at 10 and 22 o'clock.
 
 Create a folder under your user location.
 e.g: /Users/cladiomartins/**Scripts**
