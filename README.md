@@ -46,7 +46,7 @@ Create a folder under your user location.
 
 Copy and paste the \*.sh script you want under the created folder
 
-Open the \*.sh file and edit with your Reference Code, Telegram Chat Id and Telegram Bot Token.
+Open the \*.sh file and edit with your **Reference Code**, **Telegram Chat Id** and **Telegram Bot Token**.
 
 Copy and paste the relate \*.plist file into ~/Library/LaunchAgents/
 
