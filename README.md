@@ -27,7 +27,7 @@ The actual tool/technolgy stack is:
 - [curl](https://curl.haxx.se/)
 - [tidy](https://linux.die.net/man/1/tidy)
 - [xmllint](http://xmlsoft.org/xmllint.html)
-- [Postfix](http://www.postfix.org/)
+- [Telegram Bot](https://core.telegram.org/bots)
 - [launchd](https://www.launchd.info/)
 
 ## Configuring/Running/Deploying
@@ -39,7 +39,7 @@ e.g: /Users/cladiomartins/**Scripts**
 
 Copy and paste the \*.sh script you want under the created folder
 
-Open the \*.sh file and edit with your Reference Code and your e-mail.
+Open the \*.sh file and edit with your Reference Code, Telegram Chat Id and Telegram Bot Token.
 
 Copy and paste the relate \*.plist file into ~/Library/LaunchAgents/
 
@@ -54,7 +54,6 @@ In order to load the service type in the Terminal:
 In order to start the service type in the Terminal:  
 <code> launchctl start ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist </code> 
 
-
 To stop a service you can type in the Terminal:  
 <code> launchctl unload ~/Library/LaunchAgents/de.gauderio.munich.passport.agent.plist </code> 
 
@@ -65,12 +64,6 @@ How do you enter your references/information.
 ### Managing Services
 
 How do you add or delete the services based in your need.
-
-### Troubleshooting
-
-Solutions for known problems.
-
-- IPv6 sending guidelines regarding PTR records not met (TBD)
 
 ## Roadmap
 
