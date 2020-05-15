@@ -1,6 +1,6 @@
 # General
 
-Useful scripts to make life in Munich less painful
+Useful scripts to make life in Munich easier.
 
 Mainly the scripts here try to automate legacy services into Push Notifications.
 
