@@ -15,7 +15,7 @@ Available services are:
 - [Aufenthaltstitel/Residence Permit status](https://www17.muenchen.de/EATWebSearch/)
 - [Führerschein/Driver's License status](https://www17.muenchen.de/Fuehrerschein/)
 
-You will receive an e-mail informing the status.
+You will receive an Telegram message informing the status.
 
 ## Development
 
