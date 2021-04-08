@@ -34,7 +34,7 @@ The actual tool/technolgy stack is:
 
 First of all you will need to create your own Telegram Bot. [See here](https://core.telegram.org/bots#6-botfather)
 
-Second, you will need to find out which is your Personal Telegram Chat ID. [See here](https://pupli.net/2019/02/get-chat-id-from-telegram-bot/)
+Second, you will need to find out which is your Personal Telegram Chat ID. [See here](https://sean-bradley.medium.com/get-telegram-chat-id-80b575520659)
 
 Third, to the scripts:
 
